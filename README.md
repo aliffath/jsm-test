@@ -38,7 +38,7 @@ Clone the Repository:
 
 ## Start JSON Server:
 
-- json-server --watch db.json --port 3001
+- npm run json-server
   Run the Development Server:
 
 - npm run dev

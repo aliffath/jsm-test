@@ -45,83 +45,20 @@
     {
       "id": "44e6",
       "image": "/image/starbuck.webp",
-      "stock": 9,
+      "stock": 8,
       "price": 10000,
       "name": "Starbuck"
     }
   ],
   "transactions": [
     {
-      "id": "2ad9",
-      "productId": "2",
-      "productName": "Coca-Cola",
-      "price": 7000,
-      "amountPaid": 15000,
-      "change": 8000,
-      "date": "2025-04-26T06:51:56.357Z"
-    },
-    {
-      "id": "dc33",
-      "productId": "1",
-      "productName": "Teh Pucuk",
-      "price": 5000,
-      "amountPaid": 10000,
-      "change": 5000,
-      "date": "2025-04-26T08:13:06.194Z"
-    },
-    {
-      "id": "2cf0",
-      "productId": "1",
-      "productName": "Teh Pucuk",
-      "price": 5000,
-      "amountPaid": 52000,
-      "change": 47000,
-      "date": "2025-04-26T08:20:12.220Z"
-    },
-    {
-      "id": "5c4b",
-      "productId": "1",
-      "productName": "Teh Pucuk",
-      "price": 5000,
-      "amountPaid": 47000,
-      "change": 42000,
-      "date": "2025-04-26T08:20:22.310Z"
-    },
-    {
-      "id": "b49d",
-      "productId": "1",
-      "productName": "Teh Pucuk",
-      "price": 5000,
-      "amountPaid": 5000,
-      "change": 0,
-      "date": "2025-04-26T09:10:02.014Z"
-    },
-    {
-      "id": "c177",
-      "productId": "4",
-      "productName": "Sprite",
-      "price": 9000,
-      "amountPaid": 10000,
-      "change": 1000,
-      "date": "2025-04-26T10:57:09.808Z"
-    },
-    {
-      "id": "d2bd",
-      "productId": "3",
-      "productName": "Pocari Sweat",
-      "price": 8000,
-      "amountPaid": 12000,
-      "change": 4000,
-      "date": "2025-04-26T12:00:10.981Z"
-    },
-    {
-      "id": "dc69",
+      "id": "97d4",
       "productId": "44e6",
       "productName": "Starbuck",
       "price": 10000,
-      "amountPaid": 25000,
-      "change": 15000,
-      "date": "2025-04-27T06:56:07.982Z"
+      "amountPaid": 50000,
+      "change": 40000,
+      "date": "2025-04-27T07:11:44.473Z"
     }
   ]
 }

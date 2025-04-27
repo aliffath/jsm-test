@@ -148,11 +148,11 @@ const ProductsPage = () => {
                 <td className="px-6 py-4 text-gray-800">{product.stock}</td>
                 <td className="px-6 py-4">
                   <div className="flex justify-center gap-2">
-                    <button onClick={() => handleEdit(product)} className="flex items-center gap-1 px-3 py-1 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded-md">
+                    <button onClick={() => handleEdit(product)} className="flex cursor-pointer items-center gap-1 px-3 py-1 text-sm bg-blue-500 hover:bg-blue-600 text-white rounded-md">
                       <Pencil className="w-4 h-4" />
                       Edit
                     </button>
-                    <button onClick={() => handleDelete(product.id)} className="flex items-center gap-1 px-3 py-1 text-sm bg-red-500 hover:bg-red-600 text-white rounded-md">
+                    <button onClick={() => handleDelete(product.id)} className="flex cursor-pointer items-center gap-1 px-3 py-1 text-sm bg-red-500 hover:bg-red-600 text-white rounded-md">
                       <Trash2 className="w-4 h-4" />
                       Hapus
                     </button>
