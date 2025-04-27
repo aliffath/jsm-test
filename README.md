@@ -39,7 +39,8 @@ Clone the Repository:
 ## Start JSON Server:
 
 - npm run json-server
-  Run the Development Server:
+
+## Run the Development Server:
 
 - npm run dev
 - Now the app should be running on http://localhost:3000
