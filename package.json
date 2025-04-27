@@ -6,18 +6,25 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
+    "@hookform/resolvers": "^5.0.1",
+    "lucide-react": "^0.503.0",
+    "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.1"
+    "react-hook-form": "^7.56.1",
+    "sweetalert2": "^11.19.1",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
     "eslint": "^9",
     "eslint-config-next": "15.3.1",
-    "@eslint/eslintrc": "^3"
+    "json-server": "^1.0.0-beta.3",
+    "tailwindcss": "^4"
   }
 }

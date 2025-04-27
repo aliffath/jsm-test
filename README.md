@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<br/> <p align="center"> <a href="https://github.com/aliffath/jsm-test"> </a> <h3 align="center">Vending Machine App</h3> <p align="center"> Buy your favorite products easily with virtual vending machine. <br/> <br/> <a href="https://github.com/aliffath/jsm-test"><strong>Explore the docs »</strong></a> <br/> <br/> . <a href="https://github.com/aliffath/jsm-test/issues">Report Bug</a> . <a href="https://github.com/aliffath/jsm-test/issues">Request Feature</a> </p> </p>
 
-## Getting Started
+About The Project
 
-First, run the development server:
+<p align="center"> Welcome to the Vending Machine App! This project allows users to view available products, insert money, make purchases, and view transaction history. Admins can manage products easily through the admin panel with full CRUD functionality. </p>
 
-```bash
+Built With
+This app was built with these technologies:
+
+Next.js (App Router)
+Tailwind CSS
+React Hook Form
+Yup
+SweetAlert2
+JSON Server (Fake API)
+
+Prerequisites
+Before installation, make sure you have:
+
+NodeJS installed. (Recommended: v18.x.x or higher)
+Download here: https://nodejs.org/en/download
+
+json-server installed :
+
+npm install --save-dev json-server
+Installation
+Clone the Repository:
+
+git clone https://github.com/aliffath/jsm-test.git
+cd vending-machine-app
+Install Dependencies:
+
+npm install
+
+Start JSON Server:
+
+json-server --watch db.json --port 3001
+Run the Development Server:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Now the app should be running on http://localhost:3000
+And the fake API running on http://localhost:3001
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage Guide
+Admin Panel (CRUD Features)
+Klik tombol "Dashboard Admin" yang tersedia di halaman utama.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Di halaman admin:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create Product: Klik tombol "Add Product", isi form produk baru.
+Untuk mengisi gambar produk, gunakan path gambar dari folder /public/image, contoh:/image/sprite.jpg
+Edit Product: Klik tombol "Edit" pada produk yang ingin diubah.
+Sama seperti saat create, saat edit gambar produk, gunakan path seperti: /image/sprite.jpg
+Delete Product: Klik tombol "Delete" untuk menghapus produk.
 
-## Learn More
+Membeli Produk
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Di halaman Home, sebelum membeli produk, pastikan Anda sudah mengisi uang.
+Klik tombol button yang berada di sebelah kanan halaman.
+Setelah memasukkan nominal uang, Anda bisa langsung klik tombol "Beli" di produk yang diinginkan.
